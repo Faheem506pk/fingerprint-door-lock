@@ -151,20 +151,7 @@ int getFingerprintIDez() {
   delay(1);
    digitalWrite(8, LOW);
   delay(100);
-  tone(buzzer,1800);
-  delay(100);
-  noTone(buzzer);
-  delay(10);
-   tone(buzzer,1700);
-  delay(100);
-  noTone(buzzer);
-  delay(10);
-  tone(buzzer,1600);
-  delay(100);
-  noTone(buzzer);
-  delay(10);
-   tone(buzzer,1500);
-  delay(100);
+ 
   noTone(buzzer);
   delay(10);
  
